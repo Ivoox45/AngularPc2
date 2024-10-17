@@ -1,0 +1,7 @@
+.card > img {
+    width: 300px;
+}
+
+.card-text,.card-title{
+    color: white;
+}

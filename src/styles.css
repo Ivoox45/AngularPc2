@@ -1,0 +1,81 @@
+body {
+  background-color: #181818; /* Fondo oscuro suave */
+  color: #e0e0e0; /* Texto claro */
+}
+
+.container {
+  padding: 20px;
+}
+
+h2,
+h4 {
+  color: #ffffff;
+}
+
+.card {
+  background-color: #252525; /* Fondo de tarjeta más claro */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Añadir un poco de sombra para dar profundidad */
+}
+
+.card-header {
+  background-color: #303030; /* Fondo un poco más claro para el encabezado */
+  color: #ffffff;
+  border-bottom: 1px solid #444; /* Línea divisoria más visible */
+}
+
+.table {
+  background-color: #303030; /* Fondo de la tabla más claro */
+  color: #e0e0e0;
+}
+
+.table th {
+  background-color: #3a3a3a; /* Cabeceras con fondo gris claro */
+  color: #ffffff;
+}
+
+.table td {
+  background-color: #252525; /* Mantén el fondo oscuro */
+  color: #ffffff; /* Fondo de celda ligeramente más claro */
+}
+
+.form-control {
+  background-color: #303030;
+  border: 1px solid #555; /* Líneas más visibles */
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.form-control::placeholder {
+  color: #b0b0b0;
+}
+
+.btn-primary {
+  background-color: #2979ff; /* Azul para el botón agregar */
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #1c54b2; /* Azul oscuro al pasar el cursor */
+}
+
+.btn-danger {
+  background-color: #ff5252; /* Rojo claro para el botón eliminar */
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #d32f2f; /* Rojo más intenso al pasar el cursor */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-header h4,
+.card-header h2 {
+  margin-bottom: 0;
+}
+
